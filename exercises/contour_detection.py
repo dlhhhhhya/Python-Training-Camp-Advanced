@@ -57,5 +57,5 @@ def contour_detection(image_path):
         cv2.drawContours(img_copy, contours, -1, (0, 255, 0), 3)
         return img_copy, contours
     except Exception as e:
-        print(f"发生错误: {e}")
+        print(f"发生错误 {e}")
         return None, None
